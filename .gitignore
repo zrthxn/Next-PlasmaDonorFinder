@@ -1,3 +1,6 @@
+# IDE Folders
+.vscode/
+
 ### Django ###
 *.log
 *.pot
@@ -7,7 +10,6 @@ local_settings.py
 db.sqlite3
 db.sqlite3-journal
 media
-static
 
 .env
 .env_postgis
@@ -88,7 +90,7 @@ target/
 #   However, in case of collaboration, if having platform-specific dependencies or dependencies
 #   having no cross-platform support, pipenv may install dependencies that don't work, or not
 #   install all needed dependencies.
-#Pipfile.lock
+Pipfile.lock
 
 # celery beat schedule file
 celerybeat-schedule

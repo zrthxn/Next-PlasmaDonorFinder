@@ -1,6 +1,8 @@
-# Plasma Donor Finder COVID19
 ##### UNDER DEVELOPMENT
-###### Check Issue tracker for updates
+##### Check Issue tracker for updates
+
+# Plasma Donor Finder COVID19
+
 This is a simple website used to connect Donors of Plasma and Hospitals for the treatment of COVID19. Plasma therapy is recently started in India and this website will act as a platform to connect nearby donor with hospitals the require plasma.
 ## Google Maps API
 1. This project uses google maps API. Go to https://console.cloud.google.com/ and create a new project.
