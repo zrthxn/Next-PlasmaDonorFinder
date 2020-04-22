@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'users',
     'django_extensions',
     'mapwidgets',
+    'finderfrontend',
 ]
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'

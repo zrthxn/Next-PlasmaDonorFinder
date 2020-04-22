@@ -1,0 +1,36 @@
+{
+  "name": "plasmadonorfinder",
+  "version": "0.1.0",
+  "description": "Plasma donor finder for COVID",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development ./src/finderfrontend/src/index.js --output ./src/finderfrontend/static/main.js",
+    "build": "webpack --mode production ./source/finderfrontend/src/index.js --output ./src/finderfrontend/static/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zrthxn/PlasmaDonorFinder.git"
+  },
+  "author": "zrthxn",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/zrthxn/PlasmaDonorFinder/issues"
+  },
+  "homepage": "https://github.com/zrthxn/PlasmaDonorFinder#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "sass": "^1.26.3",
+    "typescript": "^3.8.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

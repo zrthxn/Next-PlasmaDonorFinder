@@ -1,6 +1,10 @@
 # IDE Folders
 .vscode/
 
+# NodeJS
+node_modules/
+package-lock.json
+
 ### Django ###
 *.log
 *.pot
@@ -10,7 +14,9 @@ local_settings.py
 db.sqlite3
 db.sqlite3-journal
 media
+Pipfile.lock.json
 
+# ENV
 .env
 .env_postgis
 

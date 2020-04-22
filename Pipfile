@@ -1,0 +1,24 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+asgiref = "*"
+certifi = "*"
+django-crispy-forms = "*"
+django-extensions = "*"
+django-map-widgets = "*"
+django-phone-field = "*"
+psycopg2 = "*"
+pydotplus = "*"
+pyparsing = "*"
+pytz = "*"
+six = "*"
+sqlparse = "*"
+Django = "*"
+
+[requires]
+python_version = "3.6"
