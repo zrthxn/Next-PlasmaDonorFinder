@@ -4,8 +4,8 @@
   "description": "Plasma donor finder for COVID",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development ./src/finderfrontend/src/index.js --output ./src/finderfrontend/static/main.js",
-    "build": "webpack --mode production ./source/finderfrontend/src/index.js --output ./src/finderfrontend/static/main.js"
+    "dev": "webpack --mode development --config ./src/finderfrontend/webpack.config.js",
+    "build": "webpack --mode production --config ./src/finderfrontend/webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -21,11 +21,16 @@
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.5",
     "@babel/preset-react": "^7.9.4",
+    "@types/node": "^13.13.2",
+    "@types/react": "^16.9.34",
     "babel-loader": "^8.1.0",
     "babel-plugin-transform-class-properties": "^6.24.1",
+    "html-webpack-plugin": "^4.2.0",
     "sass": "^1.26.3",
+    "ts-loader": "^7.0.1",
     "typescript": "^3.8.3",
     "webpack": "^4.43.0",
+    "webpack-bundle-tracker": "^1.0.0-alpha.1",
     "webpack-cli": "^3.3.11"
   },
   "dependencies": {
