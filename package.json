@@ -4,6 +4,7 @@
   "description": "Plasma donor finder for COVID",
   "main": "index.js",
   "scripts": {
+    "serve": "webpack-dev-server --mode development --config ./src/finderfrontend/webpack.config.js",
     "dev": "webpack --mode development --config ./src/finderfrontend/webpack.config.js",
     "build": "webpack --mode production --config ./src/finderfrontend/webpack.config.js"
   },
@@ -31,7 +32,8 @@
     "typescript": "^3.8.3",
     "webpack": "^4.43.0",
     "webpack-bundle-tracker": "^1.0.0-alpha.1",
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
     "prop-types": "^15.7.2",
